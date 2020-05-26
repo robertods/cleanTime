@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanTime</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="/images/clean-64.png" type="image/x-icon">
+
+  <title>CleanTime</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./vendor/materialize/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+  <div>
+    <nav class="deep-purple">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">CleanTime</a>
+        <ul class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
 
-    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
-    <script src="./config.js"></script>
-    <script src="./app.js"></script>
+    <div id="identificacion" class="contenedor">
+      <div class="tarjeta">
+        <form id="login">
+          <label for="dni">Ingrese su DNI</label>
+          <input type="text" id="dni">
+          <p id="errorDni" class="ocultar">El DNI ingresado no es válido.</p>
+          <button class="deep-purple waves-effect waves-light btn-large">Continuar</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="registro" class="contenedor">
+      <div class="tarjeta">
+        <a id="btnEntrada" class="light-blue darken-1 waves-effect waves-light btn-large"><i class="fa fa-sign-in left"></i>Entrada</a>
+      </div>
+      <div class="tarjeta">
+        <a id="btnSalida" class="orange darken-3 waves-effect waves-light btn-large"><i class="fa fa-sign-out left"></i>Salida</a>
+      </div>
+
+      <div id="esperando" class="tarjeta estado ocultar">
+        <i class="fa fa-spinner fa-spin"></i> Espere...
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="./vendor/jquery-3.5.1.min.js"></script>
+  <script src="./vendor/materialize/materialize.min.js"></script>
+  <script src="./vendor/moment.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+  <script src="./config.js"></script>
+
+  <script src="./app.js"></script>
 </body>
 </html>

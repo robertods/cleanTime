@@ -9,3 +9,8 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+
+db.enablePersistence()
+  .catch(err => console.warn('ERROR', err) );
+
