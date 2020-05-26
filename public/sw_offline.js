@@ -8,7 +8,6 @@ const assets = [
     '/app.js',
     '/config.js',
     '/images/clean-64.png',
-    '/vendor/moment.js',
     '/vendor/materialize/materialize.min.css',
     '/vendor/materialize/materialize.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
