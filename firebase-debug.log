@@ -1,0 +1,25 @@
+[debug] [2020-05-26T00:02:32.325Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T00:02:32.328Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-05-26T00:02:32.329Z] CLI Version:   8.4.0
+[debug] [2020-05-26T00:02:32.329Z] Platform:      darwin
+[debug] [2020-05-26T00:02:32.329Z] Node Version:  v12.15.0
+[debug] [2020-05-26T00:02:32.330Z] Time:          Mon May 25 2020 21:02:32 GMT-0300 (GMT-03:00)
+[debug] [2020-05-26T00:02:32.331Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T00:02:32.331Z] 
+[debug] [2020-05-26T00:02:32.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-26T00:02:32.341Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Applications/XAMPP/xamppfiles/htdocs/cleanTime
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
